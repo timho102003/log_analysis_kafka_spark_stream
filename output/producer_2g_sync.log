@@ -1,0 +1,7 @@
+2023-06-30:19:27:11: INFO     [config.py:89] [1m[95m
+        Feed log file to producer:
+        - Dataset: ../2GBFIle.log
+        - Batch Size: 1000
+        - Producer Broker: 127.0.0.1:9092
+        - Producer Topic: log_ana_2g_sync
+        [0m[0m

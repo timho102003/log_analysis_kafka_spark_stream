@@ -1,0 +1,23 @@
+2023-06-30:19:27:16: WARNING  [config.py:101] [1m[93mMake sure to match the correct spark and scala version with --pyspark_package: org.apache.spark:spark-sql-kafka-0-10_2.12:3.4.1[0m[0m
+2023-06-30:19:32:17: INFO     [config.py:89] [1m[95mFinished consuming messages.[0m[0m
+2023-06-30:19:32:20: INFO     [config.py:65] The DataFrame has 14117646 rows.
+2023-06-30:19:32:20: INFO     [config.py:89] [1m[95mFind the most used endpoint in each day of week[0m[0m
+2023-06-30:19:32:31: INFO     [config.py:65] 
+                                              endpoint  count
+Sun  /Archives/edgar/data/0001267332/00011749472100...  13739
+Mon  /Archives/edgar/data/0000004281/00011931251706...  13677
+Tue  /Archives/edgar/data/0001135856/00011358561600...  13753
+Wed  /Archives/edgar/data/0001852440/00000000002200...  13697
+Thu  /Archives/edgar/data/0001260125/00011442041901...  13722
+Fri  /Archives/edgar/data/0001491487/00011442041505...  13763
+Sat  /Archives/edgar/data/0001260125/00011442041901...  13712
+2023-06-30:19:32:31: INFO     [config.py:89] [1m[95mCalculate the number of 404 status in each day of week[0m[0m
+2023-06-30:19:32:32: INFO     [config.py:65] 
+  day_of_week   count
+0         Sun  288267
+1         Mon  288047
+2         Thu  289487
+3         Sat  288592
+4         Wed  288684
+5         Fri  288678
+6         Tue  287896
